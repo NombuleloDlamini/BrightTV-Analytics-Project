@@ -1,2 +1,2 @@
-# BrightLearn_Data-Analytics
-This is a prroject about analyzing the viewership stats of Bright TV 
+# BrightTV-Analytics-Project
+End-to-end Data Analytics Project using SQL, Databricks, Power BI and Business Intelligence.
