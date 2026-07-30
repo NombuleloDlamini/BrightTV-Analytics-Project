@@ -11,7 +11,7 @@
 SELECT DISTINCT
     COUNT(DISTINCT UserID) AS subs,
     CASE
-        WHEN Gender = ' ' THEN 'None'  -- missing/ not captured
+        WHEN Gender = ' ' THEN 'Unkown'  -- missing/ not captured
         WHEN Gender = 'None' THEN 'Unkown'
         ELSE Gender 
     END AS Gender

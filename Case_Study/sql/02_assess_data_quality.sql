@@ -55,3 +55,11 @@ WHERE Province=' ';
 SELECT COUNT(*) AS null_race
 FROM bright_tv.dataset.user_profiles
 WHERE Race=' ';
+
+-- viewership exploration --
+SELECT *
+FROM bright_tv.dataset.viewership
+WHERE userid0 <> userid4;
+
+
+
