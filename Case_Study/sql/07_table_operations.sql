@@ -27,5 +27,9 @@ INSERT INTO course_enrollment.students.profiles
 SELECT *
 FROM course_enrollment.students.profiles;
 
+UPDATE course_enrollment.students.profiles
+SET age = 25
+WHERE student_ID = 101;
+
 
 
